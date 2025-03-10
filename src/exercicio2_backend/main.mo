@@ -15,19 +15,19 @@ actor {
 
 // ########## FUNÇÕES ARITMÉTICAS ##########
   // Crie uma função chamada somar. Esta função deve receber dois números do tipo Nat, somá-los e retornar o resultado da soma.
-    public func somar(x : Nat, y : Nat) : async (){
+    public func somar(x : Nat, y : Nat) : async Nat {
       var resultado : Nat = x + y;
       return resultado;
     };
 
   // Crie uma função chamada subtrair. Esta função deve receber dois números do tipo Nat, subtraí-los e retornar o resultado da subtração.
-    public func subtrair(x : Nat, y : Nat) : async (){
+    public func subtrair(x : Nat, y : Nat) : async Nat {
       var resultado : Nat = x - y;
       return resultado;
     };
 
   // Crie uma função chamada multiplicar. Esta função deve receber dois números do tipo Nat, multiplicá-los e retornar o resultado da multiplicação.
-    public func multiplicar(x : Nat, y : Nat) : async (){
+    public func multiplicar(x : Nat, y : Nat) : async Nat {
       var resultado : Nat = x * y;
       return resultado;
     };
